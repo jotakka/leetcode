@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Numerics;
 using System.Text;
 
-namespace leetcode.Exercises.Top100InterviewQuestions.Easy {
+namespace leetcode.Exercises.Solution.Easy {
    class TrailingZeroes {
 
       //[100/5] + [100/5²] + [100/5³] = 20 + 4 + 0 = 24

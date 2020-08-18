@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace leetcode.Exercises.Top100InterviewQuestions.Medium {
+namespace leetcode.Exercises.Solution.Medium {
    class Triangle {
       public static int MinimumTotal(IList<IList<int>> triangle) {
 

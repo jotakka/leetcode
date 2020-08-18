@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace leetcode.Exercises.Top100InterviewQuestions.Easy {
+namespace leetcode.Exercises.Solution.Easy {
    class IsPalindrome {
 
       public static bool isPalindrome(string s) {

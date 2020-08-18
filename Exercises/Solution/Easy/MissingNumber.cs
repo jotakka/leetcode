@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.Tracing;
 using System.Linq;
 using System.Text;
 
-namespace leetcode.Exercises.Top100InterviewQuestions.Easy {
+namespace leetcode.Exercises.Solution.Easy {
    class MissingNumber {
 
-      public int MissingNumber(int[] nums) {
+      public static int missingNumber(int[] nums) {
          var len = nums.Length;
          var sum = (len * (len + 1)) / 2;
          var sumArr = 0;
@@ -15,6 +16,6 @@ namespace leetcode.Exercises.Top100InterviewQuestions.Easy {
          }
          return sum - sumArr;
       }
-
    }
 }
+

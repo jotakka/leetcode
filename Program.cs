@@ -8,9 +8,12 @@ using System.Net;
 using System.Text;
 
 namespace leetcode {
-   class Program {
 
-      static void Main(string[] args) {
+   public class Solution {
+
+
+
+   static void Main(string[] args) {
          Console.WriteLine("Hello World!");
 
       }
